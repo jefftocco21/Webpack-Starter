@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _joke_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./joke.js */ \"./src/joke.js\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\r\n\r\n\r\nconsole.log((0,_joke_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n//# sourceURL=webpack://webpack-starter/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _joke_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./joke.js */ \"./src/joke.js\");\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\r\n\r\n\r\nconsole.log((0,_joke_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\nconsole.log(1);\n\n//# sourceURL=webpack://webpack-starter/./src/index.js?");
 
 /***/ }),
 
