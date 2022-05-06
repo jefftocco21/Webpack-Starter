@@ -6,6 +6,7 @@ module.exports = {
     entry: {
        bundle: path.resolve(__dirname, 'src/index.js')
     },
+    devtool: 'source-map',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name][contenthash].js',
