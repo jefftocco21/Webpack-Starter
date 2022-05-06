@@ -6,5 +6,8 @@ const testImg = document.getElementById('testImg');
 
 testImg.src = inception;
 
-console.log(createJoke());
-console.log(1);
+const jokeBtn = document.getElementById('jokeBtn');
+jokeBtn.addEventListener('click', createJoke);
+
+
+createJoke();

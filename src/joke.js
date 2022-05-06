@@ -1,5 +1,15 @@
+import axios from 'axios';
+
 function createJoke() {
-    return "How do you follow Will Smith in the show? You follow the fresh prints.";
+    const config = {
+        headers: {
+            Accept: 'application/json'
+        }
+    }
+
+    axios.get('https://icanhazdadjoke.com', config).then((res) => {
+        document.getElementById('joke').innerHTML = res.data.joke
+    })
 }
 
 export default createJoke;
