@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("How do you follow Will Smith in the show? You follow the fresh prints.")})();
