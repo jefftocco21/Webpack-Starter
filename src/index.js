@@ -1,13 +1,12 @@
-import createJoke from './joke.js';
-import './styles/main.scss';
-import inception from './assets/inception2.jpg';
+// DEMO JOKE APP
+import createJoke from './createJoke'
+import './styles/main.scss'
+import laughing from './assets/inception2.jpg'
 
-const testImg = document.getElementById('testImg');
+const laughImg = document.getElementById('laughImg')
+laughImg.src = laughing
 
-testImg.src = inception;
+const jokeBtn = document.getElementById('jokeBtn')
+jokeBtn.addEventListener('click', createJoke)
 
-const jokeBtn = document.getElementById('jokeBtn');
-jokeBtn.addEventListener('click', createJoke);
-
-
-createJoke();
+createJoke()
